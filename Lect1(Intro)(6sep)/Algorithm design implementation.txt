@@ -1,0 +1,58 @@
+types of tree
+
+binary tree
+bst 
+traversals 
+height balanced tree -- avl tree
+b tree
+
+
+
+heap 
+min Heap 
+max Heap 
+operations on heap 
+priority queue 
+heap sort 
+
+
+Graphs
+introduction 
+types 
+traversals bsf and dfs 
+prims' algorithm
+kruskal algorithm 
+dijkstra's algorithm
+ --here stacks and queue are used 
+
+Hashing
+introduction 
+Collion Handling techniques
+hash functions
+open addressing
+
+
+Problem Solving techniques 
+--brute force
+--greedy algorithm 
+--divide and conquer
+--dynamic programming
+--backtracking
+--randomised algorithms
+--recursion 
+--two pointer technique
+--sliding window technique
+
+
+Greedy algorithms
+Introduction 
+Fractional knapsack problem
+Job Scheduling problem
+dijkstra's algorithm
+bellman ford algorithm
+
+Backtracking
+Permutation and combination
+subset sum and partision 
+word search problem 
+n-queens problem
