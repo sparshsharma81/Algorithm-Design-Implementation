@@ -1,0 +1,39 @@
+Big O --- Worst case  O(n)
+Omega --- Best case  Ω(n)
+Theta --- Average case  Θ(n)
+
+bubble sort 
+worse case - O(n^2)
+best case - Ω(n)
+average case - Θ(n^2)
+
+
+
+
+int i =1;
+n = 1000;
+while(i <=n){
+    System.out.println("Hello");
+    i *=2;
+    i *=3;
+}
+//time complexicity of this is O(log n)
+
+
+for(int i=1;i<=n;i++){
+    for(int j =1 ; j<=i * i;j++){
+        for(int k =1 ; k<=n/2 ; k++){
+            System.out.println("Hello");
+        }
+    }
+}
+
+time complexicity of this is O(n^4)
+//outer loop runs n times 
+//middle loop runs n^2 times
+
+//middle loop runs n^2 times because when i = 1 , j runs 1 time
+//when i = 2 , j runs 4 times
+//when i = 3 , j runs 9 times
+
+//inner loop runs n/2 times
