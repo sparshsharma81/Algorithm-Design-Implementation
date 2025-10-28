@@ -1,0 +1,4 @@
+//we need to make combinations which are equal to target 
+int[] arr = [1,2,3,4,5];
+int target = 5;
+List<List<Integer>> result = new ArrayList<>();
