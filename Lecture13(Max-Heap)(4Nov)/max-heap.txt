@@ -1,0 +1,3 @@
+max - heap sorting 
+
+priority queue is min heap by default in java   
