@@ -1,0 +1,43 @@
+public class Knapsack{
+    static class pair{
+        int w;
+        int v;
+        double r;
+        pair(int w, int v){
+            this.w = w;
+            this.v = v;
+            this.r = v * 1.0 /w;
+
+        }
+        public String toString(){
+            return this.w + " " + this.v + " " + this.r;
+        }
+
+    }
+    public static void main(String[] args){
+        int[] w = {10, 20, 30};
+        int[] v = {60, 100, 120};
+        int mw = 40;
+
+        ArrayList<pair>list = new ArrayList<>();
+        for(int i=0;i<v.length();i++){
+            list.add(new pair(w[i],v[i]));
+
+        }
+        Collections.sort(list,new Comparator<pair>(){
+            @Override
+            public int compare(pair p1, pair p2){
+                return (int) (p2.r - p1.r);
+            }
+        });
+        System.err.println(list);
+
+        int total =0;
+        for(int i=0;i<list.size();i++){
+            pair p = list.get(i);
+            total = total + p.v;
+            mw = mw - p.w
+        }
+
+    }
+}
