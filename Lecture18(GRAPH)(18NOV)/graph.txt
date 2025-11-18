@@ -1,0 +1,19 @@
+graphs are mainly of two types 
+1.Directed 
+2.Undirected 
+
+undirected means we can go back and fourth...bidirectional
+..like we can move forward and backward
+
+directed has two types 
+1.weighted 
+2.unweighted
+
+implementing graph with the help of hashmap 
+
+like nodes are vertex 
+connecting things are edge 
+
+HashMap k andar key me vertex rakhege 
+aur value me graph kis kis se connected hai 
+and then vo kis kisse connected hai 
